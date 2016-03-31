@@ -32,11 +32,11 @@
 
 #define BLUEMOD_REC_STATE                       Bluemod_ReceivedStateWaiting
 
-#define BLUEMOD_RING                            BtDevM_OnRing
-#define BLUEMOD_CONNECT                         BtDevM_OnConnect
-#define BLUEMOD_NO_CARRIER                      BtDevM_OnNoCarrier
+#define BLUEMOD_RING                            NULL_PTR
+#define BLUEMOD_CONNECT                         NULL_PTR
+#define BLUEMOD_NO_CARRIER                      NULL_PTR
 
-#define BLUEMOD_DATARECEIVED_SPP                TbProt_OnDataReceived
+#define BLUEMOD_DATARECEIVED_SPP                NULL_PTR
 #define BLUEMOD_DATARECEIVED_BLE                NULL_PTR
 
 #define BLUEMOD_INIT_STATE                      Bluemod_StateUninitialised
